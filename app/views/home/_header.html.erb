@@ -11,18 +11,16 @@
         <%= link_to "About US", home_about_path, class:"nav-link" %>
       </li>
 
-      <li class="nav-item">
-        <%= link_to "Show Friends", friends_path, class:"nav-link" %>
-      </li>
-
-      
+        <li class="nav-item">
+          <%= link_to "Show Friends", friends_path, class:"nav-link" %>
+        </li>
 
       <% if user_signed_in? %>
 
         <li class="nav-item">
-        <%= link_to "Add Friend", new_friend_path, class:"nav-link" %>
-      </li>
-      
+          <%= link_to "Add Friend", new_friend_path, class:"nav-link" %>
+        </li>
+
         <li class="nav-item">
           <%= link_to "Sign-out", destroy_user_session_path, method: :delete, class:"nav-link" %>
         </li>
@@ -37,13 +35,11 @@
           <%= link_to "Sign-up", new_user_registration_path, class:"nav-link" %>
         </li>
 
-      <li class="nav-item">
-        <%= link_to "Sign-in", new_user_session_path, class:"nav-link" %>
-      </li>
+        <li class="nav-item">
+          <%= link_to "Sign-in", new_user_session_path, class:"nav-link" %>
+        </li>
 
-      
       <% end %>
-      
 
 
 
