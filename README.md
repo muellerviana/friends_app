@@ -1,15 +1,12 @@
 
-##Brief Description:
+## Brief Description:
   
 This is not a creation of mine. It's an exercise, following a course available [here](https://www.youtube.com/watch?v=fmyvWz5TUWg&t=8165s&ab_channel=freeCodeCamp.org)
 
-##Details:
+## Details:
 * Ruby version: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
 * Rails version: 6.0.4
 * Bootstrap 
-
--
-
 
 <!-- * System dependencies
 
